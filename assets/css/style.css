@@ -5,18 +5,43 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
-body {
-    background-color: whitesmoke;
+.nav {
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#AboutMe, #Work, #ContactMe{
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    float: right
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: lightsteelblue;
+}
+
+body {
+    background-color: lightsteelblue;
+}
+
+#Contact, #Work, #AboutMe {
     padding: 10px;
-    background-color: white;
+    background-color: aliceblue;
     color: darkslategray;
     font-size: x-large;
 }
 
 div {
+    border-style: solid;
+    border-color: lightgray;
     margin: 20px;
     padding: 10px;
 }
