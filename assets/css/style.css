@@ -46,3 +46,41 @@ div {
     padding: 10px;
 }
 
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section h1 {
+    padding: 20px;
+    border-right: 5px solid black;
+    width: 175px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.small-pics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-image {
+    width: 75vw;
+    height: 400px;
+}
+
+.sub-image {
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width: 500px) {
+    .small-pics {
+        display:flex;
+        flex-direction: column;
+    }
+}
