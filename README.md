@@ -1,12 +1,7 @@
 # my-professional-portfolio-website
-Module 2 Challenge
+Zoe Keegan's Portfolio 
 
+A website that shows potential employers what projects I've worked on and how to contact me. 
 
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport-
+The user can click on a section link in the navigation bar and the page will scroll to that section. In the Work section, the user can click on each project image to view each project.
+
