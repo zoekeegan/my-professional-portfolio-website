@@ -35,7 +35,7 @@ body {
 #Contact, #Work, #AboutMe {
     padding: 10px;
     background-color: aliceblue;
-    color: darkslategray;
+    color: darkgray;
     font-size: x-large;
 }
 
@@ -54,7 +54,7 @@ div {
 
 section h1 {
     padding: 20px;
-    border-right: 5px solid black;
+    border-right: 5px solid lightgray;
     width: 175px;
 }
 
@@ -84,3 +84,4 @@ section {
         flex-direction: column;
     }
 }
+
